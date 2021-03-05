@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedmail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <!-- Image and text -->
+      <nav class="navbar navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-rss-fill" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg>
+          Feedmail
+        </a>
+        <form class="form-inline my-2 my-lg-0">
+          <button type="button" class="btn btn-primary my-2 my-sm-0">Save</button>&nbsp;
+          <button type="button" class="btn btn-secondary my-2 my-sm-0">Preview</button>&nbsp;
+          <button type="button" class="btn btn-danger my-2 my-sm-0">Send</button>
+        </form>
+      </nav>
+      <!-- Forms -->
+      <div class="main">
+        <form>
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlInput1">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="col">
+              
+              <label for="exampleFormControlInput1">RSS URL</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="https://example.site/rss.xml">
+              <br>
+              <button type="button" class="btn btn-secondary btn-sm">Add</button>
+              
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlTextarea1">Email body</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="20"></textarea>
+            </div>
+            <div class="col">
+              <nav class="navbar navbar-dark bg-dark">
+                <span class="navbar-brand mb-0 h1">Navbar</span>
+              </nav>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
